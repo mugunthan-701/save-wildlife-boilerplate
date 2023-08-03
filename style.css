@@ -29,12 +29,22 @@ nav,
 #credits {
   background-color: black;
   height: 60px;
-  /* Your code goes here */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
 }
 
 .container {
+
   width: 500px;
-  /* Your code goes here */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  align-content: center;
+
+
 }
 
 .button {
@@ -48,6 +58,9 @@ a {
 
 #home img {
   max-width: 100%;
+
+
+
 }
 
 .middle img {
@@ -65,3 +78,4 @@ footer {
   min-height: 100%;
   padding: 10% 0%;
 }
+
